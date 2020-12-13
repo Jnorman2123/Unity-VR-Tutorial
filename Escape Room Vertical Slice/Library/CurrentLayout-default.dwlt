@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 987
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 153
+  controlID: 96
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 489
     height: 987
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 281
     height: 518
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -215,10 +215,10 @@ MonoBehaviour:
     y: 0
     width: 1431
     height: 987
-  m_MinSize: {x: 403, y: 492}
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 88
+  controlID: 97
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,10 +240,10 @@ MonoBehaviour:
     y: 0
     width: 1431
     height: 518
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 43
+  controlID: 98
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -402,20 +402,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/io.extendreality.vrtk.prefabs/CameraRig/TrackedAlias
+    - Packages/io.extendreality.vrtk.prefabs/Locomotion/Teleporters
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Packages/io.extendreality.vrtk.prefabs/CameraRig/TrackedAlias
+  - Packages/io.extendreality.vrtk.prefabs/Locomotion/Teleporters
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 312}
-    m_SelectedIDs: 74360100
-    m_LastClickedID: 79476
-    m_ExpandedIDs: 00000000ec0e0100f00e0100f40e0100f60e01000e0f0100780f0100da0f01005636010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 88}
+    m_SelectedIDs: a8690000
+    m_LastClickedID: 27048
+    m_ExpandedIDs: 00000000f6520000f8520000fa520000fc520000fe52000000530000025300002c53000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -443,7 +443,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec0e0100ee0e0100f00e0100f20e0100f40e0100f60e0100
+    m_ExpandedIDs: 00000000f6520000f8520000fa520000fc520000fe5200000053000002530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -566,25 +566,25 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a417fbff
-      m_LastClickedID: -321628
-      m_ExpandedIDs: 0017fbff1217fbff2817fbffb617fbffc217fbff6618fbff6afbffff
+      m_SelectedIDs: dee9ffff54e7ffff
+      m_LastClickedID: -6316
+      m_ExpandedIDs: 2ce5ffff48f0ffff5cf0ffff6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: LeftController
-        m_OriginalName: LeftController
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -322244
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 4
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 3}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -628,9 +628,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.4079713, y: 0.23659597, z: -0.03750493}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 0.4079713, y: 0.23659597, z: -0.03750493}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -680,9 +680,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.10660814, y: -0.76890534, z: 0.13302548, w: 0.6162171}
   m_Size:
-    m_Target: 0.9141422
+    m_Target: 10
     speed: 2
-    m_Value: 0.9141422
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
