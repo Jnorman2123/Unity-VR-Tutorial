@@ -1,0 +1,504 @@
+/target:library
+/nowarn:0169
+/out:Temp/Zinnia.Runtime.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEditor.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:"D:/Unity Projects/Unity-VR-Tutorial/Escape Room Vertical Slice/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.BehaviourStateRequirementMethod.dll"
+/reference:"D:/Unity Projects/Unity-VR-Tutorial/Escape Room Vertical Slice/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.MemberChangeMethod.dll"
+/reference:"D:/Unity Projects/Unity-VR-Tutorial/Escape Room Vertical Slice/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.MemberClearanceMethod.dll"
+/reference:"D:/Unity Projects/Unity-VR-Tutorial/Escape Room Vertical Slice/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.PropertySerializationAttribute.dll"
+/reference:"D:/Unity Projects/Unity-VR-Tutorial/Escape Room Vertical Slice/Library/PackageCache/io.extendreality.malimbe@9.6.5/Runtime/Malimbe.XmlDocumentationAttribute.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll"
+/define:UNITY_2019_4_10
+/define:UNITY_2019_4
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_4_6
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Action\Action.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Action\ActionRegistrar.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Action\AllAction.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Action\AnyAction.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Action\BooleanAction.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Action\Collection\ActionObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Action\Collection\ActionRegistrarSourceObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Action\FloatAction.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Action\StateEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Action\SurfaceChangeAction.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Action\ToggleAction.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Action\Vector2Action.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Action\Vector3Action.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Association\Collection\GameObjectsAssociationObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Association\GameObjectsAssociation.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Association\GameObjectsAssociationActivator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Association\LoadedXrDeviceAssociation.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Cast\FixedLineCast.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Cast\Operation\Mutation\PointsCastPropertyMutator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Cast\ParabolicLineCast.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Cast\PhysicsCast.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Cast\PointsCast.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Cast\StraightLineCast.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Attribute\CustomInspectorTextAttribute.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Attribute\MinMaxRangeAttribute.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Attribute\RestrictedAttribute.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Attribute\TypePickerAttribute.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Attribute\UnityFlagsAttribute.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\Counter\GameObjectObservableCounter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\Counter\ObservableCounter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\GameObjectRelations.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\List\BehaviourObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\List\CameraObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\List\DefaultObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\List\FloatObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\List\GameObjectObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\List\GameObjectRelationObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\List\ObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\List\SerializableTypeBehaviourObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\List\SerializableTypeComponentObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\List\StringObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\List\UnityObjectObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\List\Vector2ObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\List\Vector3ObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\Stack\GameObjectObservableStack.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Collection\Stack\ObservableStack.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Enum\TransformProperties.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Extraction\ComponentGameObjectExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Extraction\GameObjectExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Extraction\SurfaceDataCollisionPointExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Extraction\TimeComponentExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Extraction\TransformDataGameObjectExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Extraction\TransformDirectionExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Extraction\TransformEulerRotationExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Extraction\TransformPositionExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Extraction\TransformPropertyExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Extraction\TransformScaleExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Extraction\Vector2ComponentExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Extraction\Vector3Extractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\GameObjectCloner.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Mutation\RigidbodyPropertyMutator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Mutation\TransformEulerRotationMutator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Mutation\TransformPositionMutator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Mutation\TransformPropertyMutator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Operation\Mutation\TransformScaleMutator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\FloatRange.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\HeapAllocationFreeReadOnlyList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\SerializableType.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\SurfaceData.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\TransformData.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Aggregation\CollectionAggregator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Aggregation\FloatAdder.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Aggregation\FloatMultiplier.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Aggregation\Vector2Multiplier.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Aggregation\Vector3Multiplier.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Aggregation\Vector3Subtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Conversion\AngleToVector2Direction.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Conversion\BooleanToFloat.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Conversion\FloatToBoolean.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Conversion\FloatToVector2.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Conversion\FloatToVector3.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Conversion\Vector2ToAngle.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Conversion\Vector2ToFloat.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Conversion\Vector2ToVector3.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Conversion\Vector3ToFloat.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Conversion\Vector3ToVector2.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\FloatRangeValueRemapper.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Transformer.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Vector3MagnitudeSetter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Transformation\Vector3Restrictor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Data\Type\Vector3State.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Event\BehaviourEnabledObserver.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Event\Proxy\EmptyEventProxyEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Event\Proxy\EventProxyEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Event\Proxy\FloatEventProxyEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Event\Proxy\GameObjectEventProxyEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Event\Proxy\RestrictableSingleEventProxyEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Event\Proxy\SingleEventProxyEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Event\Proxy\SurfaceDataProxyEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Event\Proxy\TransformDataProxyEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Event\Proxy\Vector2EventProxyEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Event\Proxy\Vector3EventProxyEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Extension\ArraySortExtensions.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Extension\BehaviourExtensions.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Extension\ColliderExtensions.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Extension\ComponentExtensions.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Extension\FloatExtensions.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Extension\GameObjectExtensions.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Extension\IReadOnlyCollectionExtensions.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Extension\RuleContainerExtensions.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Extension\TransformDataExtensions.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Extension\TransformExtensions.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Extension\Vector2Extensions.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Extension\Vector3Extensions.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Haptics\AudioClipHapticPulser.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Haptics\AudioSourceHapticPulser.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Haptics\Collection\HapticProcessObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Haptics\HapticProcess.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Haptics\HapticProcessor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Haptics\HapticPulser.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Haptics\RoutineHapticPulser.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Haptics\TimedHapticProcess.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Haptics\XRNodeHapticPulser.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Pointer\ObjectPointer.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Pointer\Operation\Mutation\PointerElementPropertyMutator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Pointer\PointerElement.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Process\Component\GameObjectSourceTargetProcessor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Process\Component\SourceTargetProcessor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Process\EventProcess.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Process\IProcessable.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Process\Moment\Collection\MomentProcessObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Process\Moment\CompositeProcess.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Process\Moment\MomentProcess.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Process\Moment\MomentProcessor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Process\ProcessContainer.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\ActiveInHierarchyRule.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\AllRule.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\AnyBehaviourEnabledRule.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\AnyComponentTypeRule.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\AnyLayerRule.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\AnyRule.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\AnyTagRule.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\Collection\RuleContainerObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\Collection\RulesMatcherElementObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\GameObjectRule.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\IRule.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\ListContainsRule.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\NegationRule.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\Rule.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\RuleContainer.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\RulesMatcher.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Rule\StringInListRule.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\CameraRig\Collection\LinkedAliasAssociationCollectionObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\CameraRig\LinkedAliasAssociationCollection.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\CameraRig\Operation\Extraction\PlayAreaDimensionsExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\Active\ActiveCollisionConsumer.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\Active\ActiveCollisionPublisher.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\Active\ActiveCollisionsContainer.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\Active\CollisionPointContainer.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\Active\Event\Proxy\ActiveCollisionConsumerEventProxyEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\Active\Event\Proxy\ActiveCollisionsContainerEventProxyEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\Active\Operation\Extraction\NotifierContainerExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\Active\Operation\Extraction\NotifierTargetExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\Active\Operation\Extraction\PublisherContainerExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\Active\Operation\NearestSorter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\Active\Operation\OrderReverser.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\Active\Operation\Slicer.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\CollisionIgnorer.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\CollisionNotifier.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\CollisionTracker.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Collision\Event\Proxy\CollisionNotifierEventProxyEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Follow\Modifier\FollowModifier.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Follow\Modifier\Property\Position\RigidbodyVelocity.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Follow\Modifier\Property\Position\TransformPosition.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Follow\Modifier\Property\PropertyModifier.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Follow\Modifier\Property\Rotation\RigidbodyAngularVelocity.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Follow\Modifier\Property\Rotation\RigidbodyForceAtPosition.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Follow\Modifier\Property\Rotation\TransformPositionDifferenceRotation.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Follow\Modifier\Property\Rotation\TransformRotation.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Follow\Modifier\Property\Scale\TransformScale.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Follow\ObjectDistanceComparator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Follow\ObjectFollower.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Follow\Operation\Extraction\ObjectDistanceComparatorEventDataExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Modification\ComponentEnabledStateModifier.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Modification\DirectionModifier.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Modification\GameObjectStateMirror.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Modification\GameObjectStateSwitcher.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Modification\Operation\Extraction\TransformPropertyApplierEventDataExtractor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Modification\PinchScaler.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Modification\PointNormalRotator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Modification\TransformPropertyApplier.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Query\FacingQuery.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Query\ObscuranceQuery.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\SurfaceLocator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Velocity\ArtificialVelocityApplier.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Velocity\AverageVelocityEstimator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Velocity\Collection\VelocityTrackerObservableList.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Velocity\ComponentTrackerProxy.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Velocity\VelocityApplier.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Velocity\VelocityEmitter.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Velocity\VelocityMultiplier.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Velocity\VelocityTracker.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Velocity\VelocityTrackerProcessor.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Tracking\Velocity\XRNodeVelocityEstimator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Utility\BezierCurveGenerator.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Utility\CountdownTimer.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Utility\InterfaceContainer.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Visual\CameraColorOverlay.cs"
+"D:\Unity Projects\Unity-VR-Tutorial\Escape Room Vertical Slice\Library\PackageCache\io.extendreality.zinnia.unity@1.14.1\Runtime\Visual\PointsRenderer.cs"
